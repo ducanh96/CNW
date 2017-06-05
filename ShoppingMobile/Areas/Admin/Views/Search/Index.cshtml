@@ -1,0 +1,30 @@
+﻿@using ShoppingMobile.Models.ModelDB;
+@{ 
+    List<DienThoai> listDT = (List<DienThoai>)ViewBag.DT;
+}
+
+
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Tên điện thoại</th>
+            <th>Giá</th>
+            <th>Ảnh</th>
+            <th>Số lượng</th>
+            <th>Tên hãng sản xuất</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        @foreach (var item in listDT)
+        {
+            <tr>
+                <td>@item.TenDienThoai</td>
+                <td>@item.Gia</td>
+                <td>@item.AnhDT</td>
+                <td>@item.SoLuong</td>
+                <td>@item.HangSanXuat.TenHSX</td>
+            </tr>
+        }
+    </tbody>
+</table>

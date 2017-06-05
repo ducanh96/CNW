@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="570fb9a2b1984c1483324a78a608cc19" Name="Diagram1">
+        <EntityTypeShape EntityType="DienThoaiDBModel.DDH" Width="1.5" PointX="3" PointY="7.125" />
+        <EntityTypeShape EntityType="DienThoaiDBModel.DDHCT" Width="1.5" PointX="5.25" PointY="2.375" />
+        <EntityTypeShape EntityType="DienThoaiDBModel.DienThoai" Width="1.5" PointX="3" PointY="1.5" />
+        <EntityTypeShape EntityType="DienThoaiDBModel.HangSanXuat" Width="1.5" PointX="0.75" PointY="2.75" />
+        <EntityTypeShape EntityType="DienThoaiDBModel.Image" Width="1.5" PointX="5.25" PointY="5.5" />
+        <EntityTypeShape EntityType="DienThoaiDBModel.KhachHang" Width="1.5" PointX="0.75" PointY="7.25" />
+        <EntityTypeShape EntityType="DienThoaiDBModel.Table_Role" Width="1.5" PointX="7.75" PointY="4" />
+        <EntityTypeShape EntityType="DienThoaiDBModel.Table_User" Width="1.5" PointX="7.75" PointY="0.875" />
+        <EntityTypeShape EntityType="DienThoaiDBModel.UserRole" Width="1.5" PointX="10" PointY="0.875" />
+        <AssociationConnector Association="DienThoaiDBModel.FK__DDH__MaKH__3D2915A8" />
+        <AssociationConnector Association="DienThoaiDBModel.FK__DDHCT__MaDDH__3E1D39E1" />
+        <AssociationConnector Association="DienThoaiDBModel.FK__DDHCT__MaDT__5AEE82B9" />
+        <AssociationConnector Association="DienThoaiDBModel.FK__DienThoai__MaHDT__46E78A0C" />
+        <AssociationConnector Association="DienThoaiDBModel.FK__Images__MaDT__49C3F6B7" />
+        <AssociationConnector Association="DienThoaiDBModel.FK__UserRole__RoleId__06CD04F7" />
+        <AssociationConnector Association="DienThoaiDBModel.FK__UserRole__UserId__05D8E0BE" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
